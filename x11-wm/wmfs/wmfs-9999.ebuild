@@ -11,7 +11,7 @@ HOMEPAGE="http://wmfs.info"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~*"
+KEYWORDS=""
 IUSE="imlib2 xinerama xrandr"
 
 RDEPEND="x11-libs/libSM
