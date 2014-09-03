@@ -11,7 +11,7 @@ SLOT="0"
 KEYWORDS="~*"
 IUSE=""
 
-RDEPEND="x11-wm/wmfs"
+RDEPEND="x11-wm/wmfs2"
 
 DEPEND="${RDEPEND}"
 
