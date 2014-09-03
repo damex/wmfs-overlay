@@ -5,6 +5,7 @@ EAPI="5"
 inherit git-2
 
 EGIT_REPO_URI="https://github.com/xorg62/wmfs.git"
+EGIT_MASTER="wmfs1"
 
 DESCRIPTION="Windows Manager From Scratch"
 HOMEPAGE="http://wmfs.info"
@@ -14,7 +15,7 @@ SLOT="0"
 KEYWORDS=""
 IUSE="imlib2 xinerama xrandr"
 
-RDEPEND="!x11-wm/wmfs
+RDEPEND="!x11-wm/wmfs2
 	x11-libs/libSM
 	x11-libs/libX11
 	x11-libs/libXft
