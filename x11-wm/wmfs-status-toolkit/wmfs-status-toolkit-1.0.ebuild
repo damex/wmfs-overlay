@@ -18,9 +18,9 @@ DEPEND="${RDEPEND}"
 S="${WORKDIR}/${PN}"
 
 src_compile() {
-	gcc -o "${S}/wmfs-status-graph" "graph.c" || die
-	gcc -o "${S}/wmfs-status-progress" "progress.c" || die
-	gcc -o "${S}/wmfs-status-gauge" "gauge.c" || die
+	gcc -o "wmfs-status-graph" "graph.c" || die
+	gcc -o "wmfs-status-progress" "progress.c" || die
+	gcc -o "wmfs-status-gauge" "gauge.c" || die
 }
 
 src_install() {
