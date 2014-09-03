@@ -3,8 +3,8 @@
 EAPI="5"
 
 DESCRIPTION="A C toolkit used to draw graphs and progressbars in the WMFS statusbar"
-HOMEPAGE="http://freemobilega.power-heberg.com/armael/wmfs"
-SRC_URI="http://freemobilega.power-heberg.com/armael/wmfs/wmfs-status-toolkit-1.0.tar.gz"
+HOMEPAGE="https://freemobilega.power-heberg.com/armael/wmfs"
+SRC_URI="https://freemobilega.power-heberg.com/armael/wmfs/wmfs-status-toolkit-1.0.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
