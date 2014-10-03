@@ -13,7 +13,7 @@ SLOT="0"
 KEYWORDS="~*"
 IUSE="imlib2 xinerama xrandr"
 
-S="${WORKDIR}/wmfs-${GITHUB_COMMIT}"
+S="${WORKDIR}/${PN}-wmfs1"
 
 RDEPEND="!x11-wm/wmfs2
 	x11-libs/libSM
